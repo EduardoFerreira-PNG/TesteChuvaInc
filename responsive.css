@@ -1,4 +1,4 @@
-@media (max-width: 1024px) and (max-width: 1440px) {
+@media screen and (max-width: 1024px) {
   .active::before {
     left: 0px;
     width: 6px;
