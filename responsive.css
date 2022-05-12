@@ -1,13 +1,7 @@
 @media screen and (max-width: 1024px) {
-  .active::before {
-    left: 0px;
-    width: 6px;
-    top: 42%;
-    content: "";
-    height: 44px;
-    position: fixed;
-    background: linear-gradient(180deg, #ffb455 0%, #ed7839 100%);
-  }
+    .span__active{
+        display: none;
+    }
 
   .number_notify-user {
     width: 18px;
@@ -25,15 +19,9 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .active::before {
-    left: 0px;
-    width: 6px;
-    top: 31.5%;
-    content: "";
-    height: 44px;
-    position: fixed;
-    background: linear-gradient(180deg, #ffb455 0%, #ed7839 100%);
-  }
+    .span__active{
+    display: none;
+}
 
   .number_notify-user {
     width: 18px;
@@ -72,9 +60,10 @@
     background-color: #fff;
   }
 
-  .active::before {
-    display: none;
+  .span__active{
+      display: none;
   }
+  
 
   .container {
     margin: 0;
