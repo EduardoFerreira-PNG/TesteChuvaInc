@@ -1,7 +1,13 @@
 @media screen and (max-width: 1024px) {
     .span__active{
         display: none;
+        
     }
+
+    .container{
+        margin-left: 210px;
+        overflow-x: inherit;
+      }
 
   .number_notify-user {
     width: 18px;
@@ -9,7 +15,7 @@
     color: #fff;
     position: absolute;
     z-index: 1;
-    right: -344px;
+    right: -325px;
     top: 10px;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -23,13 +29,18 @@
     display: flex;
 }
 
+.container{
+    margin-left: 210px;
+    overflow: inherit;
+  }
+
   .number_notify-user {
     width: 18px;
     height: 18px;
     color: #fff;
     position: absolute;
     z-index: 1;
-    right: -602px;
+    right: -581px;
     top: 10px;
     text-align: center;
     font-family: "Roboto", sans-serif;

@@ -17,7 +17,6 @@ main {
   
   .container{
     margin-left: 210px;
-    
   }
   
   .container header {
@@ -162,7 +161,7 @@ main {
       width: 18px;
       height: 18px;
       color: #fff;
-      position: fixed;
+      position: absolute;
       z-index: 1;
       right: 28px;
       top: 10px;
