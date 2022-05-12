@@ -17,6 +17,7 @@ main {
   
   .container{
     margin-left: 210px;
+    overflow-x: hidden;
   }
   
   .container header {
@@ -25,6 +26,7 @@ main {
     align-items: center;
     justify-content: center;
     grid-template-columns: 1fr 0.2fr 0.3fr;
+    
   }
   
   .content-title_header {
