@@ -1,0 +1,256 @@
+@media (max-width: 1024px) and (max-width: 1440px) {
+  .active::before {
+    left: 0px;
+    width: 6px;
+    top: 42%;
+    content: "";
+    height: 44px;
+    position: fixed;
+    background: linear-gradient(180deg, #ffb455 0%, #ed7839 100%);
+  }
+
+  .number_notify-user {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    right: -344px;
+    top: 10px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    vertical-align: middle;
+    border-radius: 30px;
+    background-color: #f85959;
+  }
+}
+@media screen and (max-width: 768px) {
+  .active::before {
+    left: 0px;
+    width: 6px;
+    top: 31.5%;
+    content: "";
+    height: 44px;
+    position: fixed;
+    background: linear-gradient(180deg, #ffb455 0%, #ed7839 100%);
+  }
+
+  .number_notify-user {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    right: -602px;
+    top: 10px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    vertical-align: middle;
+    border-radius: 30px;
+    background-color: #f85959;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navegation {
+    z-index: 2;
+    width: 100vw;
+    height: auto;
+  }
+  .logo_img img {
+    display: none;
+  }
+  .nav_bar-btn ul {
+    list-style: none;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+  }
+  .active {
+    background-color: #fff;
+  }
+
+  .active::before {
+    display: none;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  .container header {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    font-size: 5px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 10rem;
+  }
+  .title_content-header h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #725c5c;
+  }
+  .title_content-header {
+    padding: 0;
+  }
+  .btn_perfil-header {
+    margin-top: 0.5rem;
+    gap: 50px;
+  }
+
+  .number_notify-user {
+    right: 91px;
+    top: 164px;
+    font-size: 1rem;
+  }
+
+  .btn_language-header button {
+    width: 30vw;
+  }
+
+  .title_content-header span {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #725c5c;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+
+  .title_content-header h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #725c5c;
+    text-align: center;
+  }
+
+  .content {
+    margin: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .tittle__content h2 {
+    font-size: 16px;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .img__content img {
+    width: 100vw;
+  }
+
+  .button {
+    width: 100vw;
+  }
+
+  .details__content {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .button__content {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .details {
+    width: 100vw;
+    height: 350px;
+    text-align: center;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+    overflow: scroll;
+  }
+
+  .details__content h2 {
+    width: 100vw;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .resume {
+    margin: 1rem 0;
+    width: 100vw;
+  }
+
+  .resume h2 {
+    text-align: center;
+  }
+
+  .users {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+  }
+
+  .users h2 {
+    text-align: center;
+    width: 100vw;
+  }
+
+  .introduction__users {
+    width: 100vw;
+    height: auto;
+  }
+
+  .introduction__users p {
+    width: 90vw;
+  }
+
+  .button-topic {
+    top: 15px;
+  }
+
+  .btn__form button {
+    margin-left: 6rem;
+    cursor: pointer;
+  }
+
+  .result__form {
+    width: 98vw;
+  }
+
+  .feedback__form {
+    width: 98vw;
+  }
+
+  .quests__users {
+    width: 98vw;
+    height: auto;
+  }
+
+  .description__quests {
+    width: 100vw;
+  }
+
+  .quests__users--two {
+    width: 98vw;
+    height: auto;
+  }
+
+  .answers--one {
+    width: 100vw;
+    justify-content: space-around;
+  }
+
+  .answers span {
+    margin: 0;
+  }
+
+  footer {
+    width: 100vw;
+    margin: 0;
+  }
+  footer img {
+    width: 100vw;
+  }
+}
